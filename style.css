@@ -5,7 +5,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
-  color: rgb(178, 124, 201);
+  /*color: rgb(178, 124, 201);*/
   color: #ED623A;
   /*color: #7d7d7d;*/
   font-size: 15px;
@@ -13,22 +13,33 @@ body {
 
 }
 
-h3 {
+h4 {
   margin-top: 0;
 }
 
+h1 {
+  font-family: 'Righteous', cursive;
+  color: white;
+}
+h1 a {
+  text-decoration: none;
+
+}
+
+h2 {
+}
 /*@media (max-width: 800px;) {
 }*/
 
   .container {
-    width: 600px;
+    width: 700px;
     margin: 0 auto;
     border-radius: 4px;
   }
 
 .card {
   background: #841E3E;
-  padding: 20px;
+  padding: 15px;
   margin-bottom: 20px;
   border-radius: 4px;
   box-shadow: 0px 1px 2px 0px #501D43;
@@ -37,9 +48,23 @@ h3 {
   /*background: transparent;*/
 }
 
+.card a {
+  color: white;
+}
+
+.card th {
+  line-height: 15px;
+  padding-right: 10px;
+}
+
+.card p {
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+}
+
 #profileimg {
-  border-radius: 0%;
-  margin-top: 20px;
+  border-radius: 1%;
+  margin-top: 30px;
 }
 .text-center {
   text-align: center;
@@ -55,25 +80,29 @@ h3 {
 }
 
 .btn-red {
-    background-color: #DD5555;
+    /*background-color: #ED623A;*/
+    border: white solid 1px;
     color: white;
     font-weight: 500;
-    padding: 10px;
+    padding: 5px;
     border-radius: 4px;
 }
 
 .btn-red:hover {
-    background-color: rgb(206, 37, 37);
+    background-color: #ED623A;
     color: white;
+    border: none;
 }
 
 .text-link {
   text-decoration: none;
+  color: whte;
 }
 
 .img-topleft {
   vertical-align: top;
   text-align: left;
+  padding-top: 0px;
 }
 
 .copyright {
