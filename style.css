@@ -13,6 +13,10 @@ body {
 
 }
 
+h3 {
+  margin-top: 0px;
+}
+
 h4 {
   margin-top: 0;
 }
@@ -21,15 +25,15 @@ h1 {
   font-family: 'Righteous', cursive;
   color: white;
 }
+
+h1 a:hover {
+  color: #ED623A;
+}
+
 h1 a {
   text-decoration: none;
-
 }
 
-h2 {
-}
-/*@media (max-width: 800px;) {
-}*/
 
   .container {
     width: 700px;
@@ -50,6 +54,10 @@ h2 {
 
 .card a {
   color: white;
+}
+
+.card a:hover {
+  color: #ED623A;
 }
 
 .card th {
@@ -74,6 +82,7 @@ h2 {
   text-align: justify;
 }
 
+
 .list-inline > li {
   display: inline-block;
   padding: 0px 20px;
@@ -89,14 +98,14 @@ h2 {
 }
 
 .btn-red:hover {
-    background-color: #ED623A;
-    color: white;
-    border: none;
+    background-color: none;
+    color: #ED623A;
+    border: #ED623A solid 2px;
 }
 
 .text-link {
   text-decoration: none;
-  color: whte;
+  color: white;
 }
 
 .img-topleft {
@@ -117,5 +126,28 @@ h2 {
 }
 
 .copyright a:hover {
-  color: gray;
+  color: #ED623A;
+}
+
+.portfolio {
+}
+
+.portfolio h3 {
+  padding-bottom: 0px;
+  margin: 0px;
+
+}
+
+.portfolio h4{
+  padding-bottom: 0px;
+  margin: 0px;
+}
+
+.portfolio a {
+  text-decoration: none;
+}
+
+.portfolio p {
+  margin: 0px;
+  line-height: 15px;
 }
